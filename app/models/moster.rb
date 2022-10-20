@@ -1,2 +1,0 @@
-class Monsters < AplicattionRecord
-end
