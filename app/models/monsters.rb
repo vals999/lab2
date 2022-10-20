@@ -1,2 +1,2 @@
-class Monsters < AplicattionRecord
+class Monsters < ApplicationRecord
 end

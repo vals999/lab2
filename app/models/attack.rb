@@ -1,2 +1,2 @@
-class Attacks < AplicattionRecord
+class Attacks < ApplicationRecord
 end

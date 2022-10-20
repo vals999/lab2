@@ -1,2 +1,2 @@
-class Victims < AplicattionRecord
+class Victims < ApplicationRecord
 end
