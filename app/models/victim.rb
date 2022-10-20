@@ -1,4 +1,5 @@
-class Victims < ApplicationRecord
+class Victim < ApplicationRecord
     validates :name, presence: true
-    belongs_to :monster
+    has_many :attacks, dependent :destroy
+    has_many :monster, through: :attacks
 end
