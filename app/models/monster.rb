@@ -4,4 +4,5 @@ class Monster < ApplicationRecord
 
     has_many :attacks, dependent: :destroy
     has_many :victims, through: :attacks
+    has_many :tweets, dependent: :destroy
 end
