@@ -1,0 +1,2 @@
+class Attacks < AplicattionRecord
+end
